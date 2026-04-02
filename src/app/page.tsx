@@ -61,7 +61,11 @@ export default function HomePage() {
           </Link>
           <nav className="hidden items-center gap-6 md:flex">
             {navItems.map((item) => (
-              <Link key={item.href} href={item.href} className="text-sm font-medium hover:text-luxe-gold">
+              <Link
+                key={item.href}
+                href={item.href}
+                className="text-sm font-medium hover:text-luxe-gold"
+              >
                 {item.label}
               </Link>
             ))}
@@ -79,13 +83,16 @@ export default function HomePage() {
         <section className="section-space pb-20 pt-20 md:pt-28">
           <div className="container-shell grid items-center gap-12 lg:grid-cols-2">
             <AnimatedReveal>
-              <p className="text-sm uppercase tracking-[0.25em] text-black/60">Premium Interior Design Studio</p>
+              <p className="text-sm uppercase tracking-[0.25em] text-black/60">
+                Premium Interior Design Studio
+              </p>
               <h1 className="mt-5 font-serif text-4xl leading-tight md:text-6xl">
                 Designing Spaces
                 <span className="block text-luxe-gold">That Reflect Your Story</span>
               </h1>
               <p className="mt-6 max-w-xl text-lg text-black/70">
-                Elegant, modern, and deeply personalized interiors for luxury homes and commercial spaces.
+                Elegant, modern, and deeply personalized interiors for luxury homes and commercial
+                spaces.
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
                 <Link
@@ -126,12 +133,13 @@ export default function HomePage() {
             <AnimatedReveal className="lg:col-span-2">
               <h2 className="font-serif text-3xl md:text-4xl">About Our Studio</h2>
               <p className="mt-5 text-black/70">
-                We are a detail-driven interior design practice specializing in premium residential and commercial
-                spaces. Our approach combines timeless aesthetics, smart functionality, and precise execution.
+                We are a detail-driven interior design practice specializing in premium residential
+                and commercial spaces. Our approach combines timeless aesthetics, smart
+                functionality, and precise execution.
               </p>
               <p className="mt-4 text-black/70">
-                From concept sketches to final styling, we lead every phase with clarity and craft so your space feels
-                elevated, cohesive, and uniquely yours.
+                From concept sketches to final styling, we lead every phase with clarity and craft
+                so your space feels elevated, cohesive, and uniquely yours.
               </p>
             </AnimatedReveal>
             <AnimatedReveal delay={0.08} className="grid gap-4">
@@ -154,8 +162,8 @@ export default function HomePage() {
             <AnimatedReveal>
               <h2 className="font-serif text-3xl md:text-4xl">Services</h2>
               <p className="mt-4 max-w-2xl text-black/70">
-                Strategy-led design offerings tailored for clients who value elegance, efficiency, and a seamless
-                execution process.
+                Strategy-led design offerings tailored for clients who value elegance, efficiency,
+                and a seamless execution process.
               </p>
             </AnimatedReveal>
             <div className="mt-10 grid gap-6 md:grid-cols-2">
@@ -197,26 +205,32 @@ export default function HomePage() {
             <AnimatedReveal>
               <h2 className="font-serif text-3xl md:text-4xl">Let&apos;s Design Your Next Space</h2>
               <p className="mt-4 text-black/70">
-                Tell us about your project goals, style, and timeline. We&apos;ll schedule a free consultation to plan
-                your next steps.
+                Tell us about your project goals, style, and timeline. We&apos;ll schedule a free
+                consultation to plan your next steps.
               </p>
               <div className="mt-8 space-y-3 text-sm">
                 <p>
                   Email:{" "}
-                  <a href="mailto:hello@aureliainteriors.com" className="font-medium text-luxe-gold hover:underline">
+                  <a
+                    href="mailto:hello@aureliainteriors.com"
+                    className="font-medium text-luxe-gold hover:underline"
+                  >
                     hello@aureliainteriors.com
                   </a>
                 </p>
                 <p>
                   Phone:{" "}
-                  <a href="tel:+919999999999" className="font-medium text-luxe-gold hover:underline">
-                    +91 99999 99999
+                  <a
+                    href="tel:+918369048303"
+                    className="font-medium text-luxe-gold hover:underline"
+                  >
+                    +918369048303
                   </a>
                 </p>
                 <p>
                   WhatsApp:{" "}
                   <a
-                    href="https://wa.me/919999999999"
+                    href="https://wa.me/918369048303"
                     target="_blank"
                     rel="noreferrer"
                     className="font-medium text-luxe-gold hover:underline"
@@ -306,7 +320,7 @@ export default function HomePage() {
       </footer>
 
       <a
-        href="https://wa.me/919999999999"
+        href="https://wa.me/918369048303"
         target="_blank"
         rel="noreferrer"
         className="fixed bottom-6 right-6 rounded-full bg-green-600 px-5 py-3 text-sm font-semibold text-white shadow-lg transition hover:bg-green-700"
